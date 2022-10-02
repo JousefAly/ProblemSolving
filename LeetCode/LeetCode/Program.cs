@@ -7,12 +7,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                TwoSumProblem.Run();
-
-            }
-
+         
+            RichestCustomerProblem.Run();
         }
         private void thisIsCommentedCode()
         {
