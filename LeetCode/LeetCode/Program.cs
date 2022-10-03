@@ -7,8 +7,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-         
-            RichestCustomerProblem.Run();
+
+            
         }
         private void thisIsCommentedCode()
         {
