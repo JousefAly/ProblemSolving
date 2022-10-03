@@ -1,4 +1,5 @@
-﻿using LeetCode.Problems;
+﻿using LeetCode.InterviewProblems.Easy;
+using LeetCode.Problems;
 using System;
 
 namespace LeetCode
@@ -8,8 +9,32 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-            RansomNoteProblem.Run();
+            RemoveDuplicatesFromSortedArray.Run();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         private void thisIsCommentedCode()
         {
             //Console.WriteLine("Enter roman number:");
