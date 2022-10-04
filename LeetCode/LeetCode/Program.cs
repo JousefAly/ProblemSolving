@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-            RotateArray.Run();
+            ContainsDuplicateProblem.Run();
         }
 
 
