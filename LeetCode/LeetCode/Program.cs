@@ -9,7 +9,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-            BestTimeToBuyAndSellStock.Run();
+            RotateArray.Run();
         }
 
 
