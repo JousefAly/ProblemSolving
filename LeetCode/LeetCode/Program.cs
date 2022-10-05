@@ -8,8 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-
-            ContainsDuplicateProblem.Run();
+            SingleNumberProblem.Run();
         }
 
 
