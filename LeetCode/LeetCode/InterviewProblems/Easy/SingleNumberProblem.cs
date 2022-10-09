@@ -33,6 +33,7 @@ namespace LeetCode.InterviewProblems.Easy
             return 0;
             
         }
+        
         public static void Run()
         {
             while (true)
