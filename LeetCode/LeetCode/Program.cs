@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            ArrayOfIntersection.Run();
+            PlusOneProblem.Run();
         }
 
 
