@@ -9,13 +9,15 @@ namespace LeetCode.InterviewProblems.Easy
 {
     public class PlusOneProblem
     {
-        public int[] PlusOne(int[] digits)
-        {
+        public static int[] PlusOne(int[] digits)
+        {            
             for (int i = digits.Length - 1; i >= 0; i--)
             {
                 if (i == 0 && digits[i] == 9)
                 {
-                    digits = digits.Append(1).ToArray();
+                    var result = new int[digits.Length + 1];
+                    result[0] = 1;
+                    return result;
                 }
                 else if (digits[i] < 9)
                 {
@@ -32,6 +34,7 @@ namespace LeetCode.InterviewProblems.Easy
 
                 Console.WriteLine("-------------start----------");
                 var digits = CGlobal.InputIntArray();
+                digits = PlusOne(digits);
                 Console.WriteLine("result: [" + string.Join(',', digits) + "]");
             }
         }
