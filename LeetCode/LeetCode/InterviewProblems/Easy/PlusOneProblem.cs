@@ -15,12 +15,16 @@ namespace LeetCode.InterviewProblems.Easy
             {
                 if (i == 0 && digits[i] == 9)
                 {
-                    var result = new int[digits.Length + 1];
-                    result[0] = 1;
-                    return result;
+                    digits = new int[digits.Length + 1];
+                    digits[0] = 1;
+                    return digits;
                 }
                 else if (digits[i] < 9)
                 {
+                    for (int j = digits.Length - 1; j > i ; j--)
+                    {
+                        digits[j] = 0;
+                    }
                     digits[i]++;
                     break;
                 }
