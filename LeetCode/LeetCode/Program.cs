@@ -8,7 +8,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            PlusOneProblem.Run();
+            MoveZeroesProblem.Run();
         }
 
 
