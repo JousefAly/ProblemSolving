@@ -21,5 +21,13 @@ namespace LeetCode.Helper
             }
             return nums;
         }
+
+        public static char[] InputCharArray()
+        {
+            Console.WriteLine("enter string");
+            var input = Console.ReadLine();
+            
+            return input.ToCharArray();
+        }
     }
 }

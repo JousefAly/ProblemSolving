@@ -1,4 +1,5 @@
 ﻿using LeetCode.InterviewProblems.Easy;
+using LeetCode.InterviewProblems.Easy.Strings;
 using LeetCode.Problems;
 using System;
 
@@ -8,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-           InterviewProblems.Easy.TwoSumProblem.Run();
+            ReverseInteger.Run();
         }
 
 
