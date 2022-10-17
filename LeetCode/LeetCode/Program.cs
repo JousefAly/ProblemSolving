@@ -9,7 +9,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            ValidAnagram.Run();
+            ValidPalindrome.Run();
         }
 
 
