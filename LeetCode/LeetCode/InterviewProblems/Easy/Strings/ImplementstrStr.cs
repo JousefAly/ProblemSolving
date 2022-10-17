@@ -20,5 +20,12 @@ namespace LeetCode.InterviewProblems.Easy.Strings
             }
             return -1;
         }
+        public static int StrStrOptimized(string haystack, string needle)
+        {
+            if (string.IsNullOrEmpty(needle) || string.IsNullOrEmpty(haystack))
+                return -1;
+            return haystack.IndexOf(needle);
+           
+        }
     }
 }
