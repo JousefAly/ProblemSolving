@@ -4,18 +4,23 @@
 	{
 		static void Main(string[] args)
 		{
-			var n = int.Parse(Console.ReadLine());
-
-			int totalProblems = 0;
-			for (int i = 0; i < n; i++)
+			int row = 0;
+			int col = 0;
+			for (int i = 1; i <= 5; i++)
 			{
-				string[] inputLine = Console.ReadLine().Split(' ');
-				if(inputLine.Select(int.Parse).Sum() >= 2)
-					totalProblems++;
-
+				int[] line = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+				for (int j = 1; j <= 5; j++)
+				{
+					if (line[j - 1] == 1)
+					{
+						row = i;
+						col = j;
+						break;
+					}
+				}
 			}
-
-            Console.WriteLine(totalProblems);
+			int result = Math.Abs(3 - row) + Math.Abs(3 - col);
+            Console.WriteLine(result);
         }
 
 	}
