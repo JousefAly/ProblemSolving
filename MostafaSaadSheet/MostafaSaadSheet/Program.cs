@@ -1,15 +1,16 @@
-﻿namespace MostafaSaadSheet
+﻿using MostafaSaadSheet.Algorithms;
+
+namespace MostafaSaadSheet
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			int n = int.Parse(Console.ReadLine());
+			int[] arr = { 1, 3, 4, 5, 90, 2500, 0, 1, 2, 100, 140, 180 };			
 
-			int[] arr = Console.ReadLine().Split(' ').Select(int.Parse).OrderBy(x => x).ToArray();
-
-            Console.WriteLine(string.Join(" ", arr));
-        }
+			MergeSort.Sort(arr);
+			Console.WriteLine(string.Join(',', arr));
+		}
 
 	}
 }
