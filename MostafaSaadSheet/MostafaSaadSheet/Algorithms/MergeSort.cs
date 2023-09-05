@@ -16,7 +16,7 @@ namespace MostafaSaadSheet.Algorithms
 
 		private static void Sort(int[] arr, int[] aux, int lo, int hi)
 		{
-			if (lo >= hi) return;
+			if (lo == hi) return;
 
 			int mid = lo + (hi - lo) / 2;
 
