@@ -8,7 +8,7 @@ namespace MostafaSaadSheet
 		{
 			int[] arr = { 1, 3, 4, 5, 90, 2500, 0, 1, 2, 100, 140, 180 };			
 
-			MergeSort.Sort(arr);
+			QuickSort.Sort(arr);
 			Console.WriteLine(string.Join(',', arr));
 		}
 
